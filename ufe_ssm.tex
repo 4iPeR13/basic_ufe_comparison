@@ -10,6 +10,8 @@
 \usepackage{longtable}
 \usepackage{geometry}
 \usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{float}
 
 \geometry{left=15mm,right=15mm,top=15mm,bottom=15mm}
 \pagestyle{empty}
@@ -779,6 +781,25 @@ Inverse-scan spatial maps і route-consistent features.
 \bottomrule
 \end{tabularx}
 \end{center}
+
+\section*{Практичне порівняння двох моделей (Mamba vs. S4)}
+
+Моделі було обрано виходячи з двох критеріїв:
+\begin{itemize}
+    \item Модель повинна бути популярною і часто використовуваною в науці.
+    \item Модель повинна бути легко доступною і порівнюваною.
+\end{itemize}
+
+Нижче прикріплені результати програмної реалізації 
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=0.8\textwidth]{src/1.png}
+        \vspace{0.1cm}
+        \includegraphics[width=0.8\textwidth]{src/2.png}
+        \vspace{0.1cm}
+        \includegraphics[width=0.8\textwidth]{src/3.png}
+\end{figure}
+
 
 \section*{Висновки}
 
